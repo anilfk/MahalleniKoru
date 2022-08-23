@@ -6,7 +6,7 @@ public class kelessc : MonoBehaviour
 {
     public bool atesedebilirmi;
     float iceriatesetmesikligi;
-    public float disariatesetmesikliği;
+    public float disariatesetmesikligi;
     public Camera Mycam;
     public float menzil;
     public AudioSource atesSesi;
@@ -22,7 +22,7 @@ public class kelessc : MonoBehaviour
         if (Input.GetKey(KeyCode.Mouse0) && atesedebilirmi && Time.time > iceriatesetmesikligi)
         {
             AtesEt();
-            disariatesetmesikliği = Time.time + iceriatesetmesikligi;
+            disariatesetmesikliÃ°i = Time.time + iceriatesetmesikligi;
         }
     }
     void AtesEt()
